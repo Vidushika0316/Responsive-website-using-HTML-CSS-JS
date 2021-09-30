@@ -5,12 +5,23 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-/*navbar styling*/
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/******navbar styling******/
 .navbar{
     position :fixed;
     width: 100%;
+    padding: 15px;
     background:crimson;
     font-family: 'Ubuntu' , sans-serif;
+}
+.navbar .max-width{
+    display :flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .navbar .logo a{
     color: #fff;
@@ -23,4 +34,7 @@
 }
 .navbar .menu li a{
     color : #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
 }
